@@ -1,0 +1,1 @@
+# onemli-hususlar
