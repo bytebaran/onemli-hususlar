@@ -333,15 +333,11 @@ fourx'teki BuildingCellIndexModel:
 >        }
 >        
 >        private void OnABCChanged(ABCChanged e){
->            // ABC item'i çek
->            // referans edilen ABC var ise cache'te update et
->            // yok ise ama cache'te var ise cache'den sil
+>            RefreshOne(e.ABC);
 >        }
 >        
->        private void RefreshOne(ABC? abc){
->            // ABC item'i çek
->            // referans edilen ABC var ise cache'te update et
->            // yok ise ama cache'te var ise cache'den sil
+>        private void RefreshOne(ABC abc){
+>            // abc ile ilgili cache fieldlarda güncellenecek veriyi güncelle
 >        }
 >        
 >        private void RefreshAll(){
