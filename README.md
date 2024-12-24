@@ -598,7 +598,6 @@ Kullandığımız ownership yönetim biçimleri:
 >>Bir data modelinde gameobjectler private bir şekilde yönetilir.
 >>Dışarıya ilgili gameobject readonly bir şekilde sunulur.
 >>Bütün set işlemleri model üzerinden yapılır.
->>tercih ettiğim bir yöntem değil ama duruma göre makul olabilir.
 
 
 #### 3.3.3-İçinde her işi çözen, data tutan managerlar:
