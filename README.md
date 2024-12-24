@@ -615,12 +615,12 @@ Kullandığımız ownership yönetim biçimleri:
 >    etc etc
 >```
 >
->Tamamen kendini ilgilen içinde state tutan, rahat bir public arayüz sunan bir yapı.
+>Tamamen kendini ilgilendiren, içinde state tutan, rahat bir public arayüz sunan bir yapı.
 >Bunun public arayüzü dışında içindeki verilere erişmemizin hiç bir avantajı yok.
 >Standart bir OOP örneği.
 > 
 >
->Ama bunu game logic yürüten managerlar için uygulamaya çalışırsak çok büyük ve bölünemeyen bir God Object oluşmasına neden olabiliriz.
+>Ama bunu yoğun game logic yürüten kapsamlı managerlar için uygulamaya çalışırsak fazla büyük ve bölünmesi zor bir God Object oluşmasına neden olabiliriz.
 >God object managerlar bence bizim şirkette yaygın oluşan bir durum ve bu şekilde meydana geliyor.
 >
 >Manager komple oyunun managerı olsun diyorsak da o manager içinde bir parçalama yapılması lazım.
